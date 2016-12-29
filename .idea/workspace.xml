@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="fc481d7d-52d4-42d6-9f46-954b04d0f527" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/crawler/crawler/items.py" afterPath="$PROJECT_DIR$/crawler/crawler/items.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/crawler/crawler/spiders/ro321_spider.py" afterPath="$PROJECT_DIR$/crawler/crawler/spiders/ro321_spider.py" />
     </list>
     <ignored path="Ragnarok.iws" />
@@ -26,8 +27,8 @@
       <file leaf-file-name="items.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/crawler/crawler/items.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+            <state relative-caret-position="494">
+              <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -36,8 +37,8 @@
       <file leaf-file-name="ro321_spider.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/crawler/crawler/spiders/ro321_spider.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="66" selection-start-line="10" selection-start-column="66" selection-end-line="10" selection-end-column="66" />
+            <state relative-caret-position="475">
+              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -45,24 +46,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="item.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/crawler/item.json">
+      <file leaf-file-name="items.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/crawler/items.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+            <state relative-caret-position="38">
+              <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="suntime_spider.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../MTU/Research/Solar_Forecasting_Project/src/suntime_crawler/suntime_crawler/spiders/suntime_spider.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="589">
-              <caret line="31" column="22" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="22" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -85,6 +74,7 @@
         <option value="$PROJECT_DIR$/crawler/crawler/spiders/ro321.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/crawler/crawler/items.py" />
+        <option value="$PROJECT_DIR$/crawler/items.json" />
         <option value="$PROJECT_DIR$/crawler/crawler/spiders/ro321_spider.py" />
       </list>
     </option>
@@ -356,7 +346,14 @@
       <option name="project" value="LOCAL" />
       <updated>1482991826052</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Debugged: RO321 xpath">
+      <created>1482992775760</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1482992775760</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -395,7 +392,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="RO321item added" />
-    <option name="LAST_COMMIT_MESSAGE" value="RO321item added" />
+    <MESSAGE value="Debugged: RO321 xpath" />
+    <option name="LAST_COMMIT_MESSAGE" value="Debugged: RO321 xpath" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -410,10 +408,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/crawler/crawler/items.py">
+    <entry file="file://$PROJECT_DIR$/crawler/item.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+        <state relative-caret-position="19">
+          <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
           <folding />
         </state>
       </provider>
@@ -428,18 +426,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/crawler/item.json">
+    <entry file="file://$PROJECT_DIR$/crawler/crawler/items.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+        <state relative-caret-position="494">
+          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawler/items.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/crawler/crawler/spiders/ro321_spider.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="66" selection-start-line="10" selection-start-column="66" selection-end-line="10" selection-end-column="66" />
+        <state relative-caret-position="475">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>

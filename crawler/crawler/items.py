@@ -16,3 +16,13 @@ class CrawlerItem(scrapy.Item):
 
 class RO321Item(scrapy.Item):
     name = scrapy.Field()
+    id = scrapy.Field()
+    type = scrapy.Field()
+    series = scrapy.Field()
+    buy_price = scrapy.Field()
+    sell_price = scrapy.Field()
+    weight = scrapy.Field()
+    description = scrapy.Field()
+    script = scrapy.Field()
+    loot = scrapy.Field()
+    other_loot = scrapy.Field()
